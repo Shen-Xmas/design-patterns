@@ -54,13 +54,15 @@ public abstract class SingleTest<T> {
     public void getInstanceInDifferentThreads() throws Exception {
 
         // add tasks
+        // 创建多个任务
         final List<Callable<T>> tasks = new ArrayList<>();
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 10000; i++) {
             tasks.add(this.getInstanceMethod::get);
         }
 
-        // obtain results
-        final ExecutorService executorService = Executors.newFixedThreadPool(4);
+        // obtain all results
+        // 获取全部结果
+        final ExecutorService executorService = Executors.newFixedThreadPool(8);
         final List<Future<T>> results = executorService.invokeAll(tasks);
 
         // determine whether it is consistent

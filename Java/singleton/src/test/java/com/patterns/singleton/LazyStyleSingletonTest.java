@@ -1,6 +1,7 @@
 package com.patterns.singleton;
 
 import org.junit.Test;
+
 import java.lang.reflect.Constructor;
 
 import static org.junit.Assert.assertNotSame;
@@ -9,14 +10,14 @@ import static org.junit.Assert.assertSame;
 /**
  * @author: Shen
  */
-public class HungryStyleSingletonTest extends SingleTest<HungryStyleSingleton> {
+public class LazyStyleSingletonTest extends SingleTest<LazyStyleSingleton> {
 
     /**
      * pass in the get instance method to test
      * 传入获取实例方法即可测试
      */
-    public HungryStyleSingletonTest() {
-        super(HungryStyleSingleton :: getInstance);
+    public LazyStyleSingletonTest() {
+        super(LazyStyleSingleton :: getInstance);
     }
 
     /**
@@ -31,12 +32,12 @@ public class HungryStyleSingletonTest extends SingleTest<HungryStyleSingleton> {
 
         // obtain constructor and make it enable because it is private
         // 获取构造方法, 由于是private所以需要使它可用
-        Constructor<HungryStyleSingleton> constructor = HungryStyleSingleton.class.getDeclaredConstructor();
+        Constructor<LazyStyleSingleton> constructor = LazyStyleSingleton.class.getDeclaredConstructor();
         constructor.setAccessible(true);
 
-        HungryStyleSingleton instance1 = constructor.newInstance();
-        HungryStyleSingleton instance2 = HungryStyleSingleton.getInstance();
-        HungryStyleSingleton instance3 = HungryStyleSingleton.getInstance();
+        LazyStyleSingleton instance1 = constructor.newInstance();
+        LazyStyleSingleton instance2 = LazyStyleSingleton.getInstance();
+        LazyStyleSingleton instance3 = LazyStyleSingleton.getInstance();
 
         System.out.println("instance1 by reflection: " + instance1);
         System.out.println("instance2 by normal: " + instance2);

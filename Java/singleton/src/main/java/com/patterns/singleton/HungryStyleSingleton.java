@@ -1,4 +1,5 @@
 package com.patterns.singleton;
+
 /**
  * @author: Shen
  *
@@ -20,7 +21,7 @@ public class HungryStyleSingleton {
     // 禁止直接调用该类构造方法
     private HungryStyleSingleton() {}
 
-    // create an instance of this class
+    // create the instance of this class
     // 创建该类的实例
     private static final HungryStyleSingleton instance = new HungryStyleSingleton();
 
