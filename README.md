@@ -4,16 +4,16 @@
 
 <p align="center">
     <a href="https://github.com/Shen-Xmas/design-patterns/fork" target="blank">
-        <img src="https://img.shields.io/github/forks/Shen-Xmas/design-patterns?style=flat-square" alt="github-design-patterns forks"/>
+        <img src="https://img.shields.io/github/forks/Shen-Xmas/design-patterns" alt="github-design-patterns forks"/>
     </a>
     <a href="https://github.com/Shen-Xmas/design-patterns/stargazers" target="blank">
-        <img src="https://img.shields.io/github/stars/Shen-Xmas/design-patterns?style=flat-square" alt="github-design-patterns stars"/>
+        <img src="https://img.shields.io/github/stars/Shen-Xmas/design-patterns" alt="github-design-patterns stars"/>
     </a>
     <a href="https://github.com/Shen-Xmas/design-patterns/issues" target="blank">
-        <img src="https://img.shields.io/github/issues/Shen-Xmas/design-patterns?style=flat-square" alt="github-design-patterns issues"/>
+        <img src="https://img.shields.io/github/issues/Shen-Xmas/design-patterns" alt="github-design-patterns issues"/>
     </a>
     <a href="https://github.com/Shen-Xmas/design-patterns/pulls" target="blank">
-        <img src="https://img.shields.io/github/issues-pr/Shen-Xmas/design-patterns?style=flat-square" alt="github-design-patterns pull-requests"/>
+        <img src="https://img.shields.io/github/issues-pr/Shen-Xmas/design-patterns" alt="github-design-patterns pull-requests"/>
     </a>
     <a href="https://github.com/Shen-Xmas/design-patterns/graphs/contributors">
       <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/Shen-Xmas/design-patterns" />
