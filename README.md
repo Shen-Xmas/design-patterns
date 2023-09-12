@@ -20,7 +20,13 @@
     </a>
 </p>
 
+<p align="center">
 Java 设计模式 Demos
+<br />
+Demos of java design patterns
+</p>
+
+<br />
 
 ## 创建型模式  (Creational Pattern)
 
@@ -32,6 +38,8 @@ Java 设计模式 Demos
 * 建造者模式（Builder Pattern）
 * 原型模式（Prototype Pattern）
 
+<br />
+
 ## 结构型模式  (Structural Pattern)
 
 * 适配器模式（Adapter Pattern）
@@ -41,6 +49,8 @@ Java 设计模式 Demos
 * 享元模式（Flyweight Pattern）
 * 装饰模式（Decorator Pattern）
 * 桥接模式（Bridge Pattern）
+
+<br />
 
 ## 行为型模式  (Behavioral Pattern)
 
