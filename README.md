@@ -31,7 +31,7 @@ Demos of java design patterns
 ## 创建型模式  (Creational Pattern)
 
 * 单例模式（Singleton Pattern）
-  - [Java]() | Golang | Python
+  - [Java](https://github.com/Shen-Xmas/design-patterns/tree/main/Java/singleton) | Golang | Python
   - [Learn in detail]()
 * 工厂方法模式（Factory Method Pattern）
 * 抽象工厂模式（Abstract Factory Pattern）
