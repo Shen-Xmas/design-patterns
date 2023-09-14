@@ -31,9 +31,11 @@ Demos of java design patterns
 ## 创建型模式  (Creational Pattern)
 
 * 单例模式（Singleton Pattern）
-  - [Java](https://github.com/Shen-Xmas/design-patterns/tree/main/Java/singleton) | Golang | Python
-  - [Learn in detail]()
-* 工厂方法模式（Factory Method Pattern）
+  - [Java](https://github.com/Shen-Xmas/design-patterns/tree/main/Java/singleton)
+  - [Learn in detail](https://www.cnblogs.com/codeshell/p/14177102.html)
+* 工厂模式（Factory Pattern）  
+  - [Java](https://github.com/Shen-Xmas/design-patterns/tree/main/Java/factory)
+  - [Learn in detail](https://www.runoob.com/design-pattern/factory-pattern.html)
 * 抽象工厂模式（Abstract Factory Pattern）
 * 建造者模式（Builder Pattern）
 * 原型模式（Prototype Pattern）
@@ -65,3 +67,16 @@ Demos of java design patterns
 * 命令模式（Command Pattern）
 * 策略模式（Strategy Pattern）
 * 状态模式（State Pattern）
+
+<br />
+<br />
+<br />
+
+## 设计模式六大原则
+
+1. 开闭原则 Open Close Principle
+2. 里氏代换原则 Liskov Substitution Principle
+3. 依赖倒转原则 Dependence Inversion Principle
+4. 接口隔离原则 Interface Segregation Principle
+5. 最少知道法则 Demeter Principle
+6. 合成复用法则 Composite Reuse Principle
